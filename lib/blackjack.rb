@@ -30,11 +30,8 @@ end
 def initial_round(card_total)
   # code #initial_round here
   card_total = deal_card + deal_card
-  2.times do 
-    deal_card
-  end
-    display_card_total(card_total)
-    return card_total
+  display_card_total(card_total)
+  return card_total
 end
 
 def hit?(card_total)
